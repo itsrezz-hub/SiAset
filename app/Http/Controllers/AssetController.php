@@ -44,7 +44,8 @@ class AssetController extends Controller
             ]);
         }
 
-        $assets = $query->latest()->get();
+       // Mengambil 10 data per halaman
+            $assets = $query->latest()->paginate(10);
 
         return view('dashboard.admin', compact('assets'));
     }
