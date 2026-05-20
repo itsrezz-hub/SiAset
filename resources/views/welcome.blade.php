@@ -1,3 +1,5 @@
+
+@extends('layouts.dashboard')
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -180,7 +182,7 @@
                     <img src="{{ asset('images/logo1.svg') }}" alt="logo1" class="w-full h-auto">
                 </div>
                 <div class="opacity-40 group-hover:opacity-100 transition-opacity">
-                    <span class="font-black text-lg tracking-tighter text-slate-800">SI-ASET SYSTEM</span>
+                    <span class="font-black text-lg tracking-tighter text-slate-800">SI-ASET  SYSTEM</span>
                     <p class="text-[10px] font-bold text-indigo-600 uppercase tracking-widest leading-none">Intelligence Hub</p>
                 </div>
             </div>

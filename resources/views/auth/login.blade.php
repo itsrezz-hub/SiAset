@@ -121,9 +121,7 @@
                         <input type="checkbox" name="remember" class="w-4 h-4 rounded-lg border-slate-700 bg-slate-900 text-indigo-600 focus:ring-indigo-500 focus:ring-offset-slate-900 transition-all cursor-pointer">
                         <span class="ml-2 text-[11px] font-bold text-slate-400 group-hover:text-slate-300 transition-colors uppercase tracking-wider">Ingat Sesi</span>
                     </label>
-                    @if (Route::has('password.request'))
-                        <a href="{{ route('password.request') }}" class="text-[11px] text-indigo-400 hover:text-indigo-300 font-black transition-colors uppercase tracking-wider">Lupa Password?</a>
-                    @endif
+                   
                 </div>
 
                 <!-- Submit Button -->
@@ -139,7 +137,7 @@
                             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"></circle>
                             <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                         </svg>
-                        MENGOTENTIKASI...
+                        MENGAUTENTIKASI...
                     </span>
                 </button>
             </form>
@@ -151,7 +149,7 @@
                 &copy; {{ date('Y') }} Informatics Lab Team
             </p>
             <div class="flex items-center justify-center gap-2 mt-2">
-                <span class="px-2 py-0.5 bg-slate-800 text-indigo-400 text-[9px] font-black rounded-md border border-slate-700">PTIK-D 24</span>
+                <span class="px-2 py-0.5 bg-slate-800 text-indigo-400 text-[9px] font-black rounded-md border border-slate-700">FARIN NEXUS TECH</span>
                 <span class="w-1 h-1 bg-slate-700 rounded-full"></span>
                 <span class="text-slate-600 text-[9px] font-bold">STABLE V2.0</span>
             </div>
